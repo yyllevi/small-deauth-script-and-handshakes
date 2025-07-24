@@ -3,7 +3,9 @@ import os
 import time
 import subprocess
 import csv
-
+#  ////////////////////////////////////////////////////////////////////////
+# FIXING UP THE ESSIDS MAKING MORE FILES DOING IT LATER FORGOT TO ADD IT IN
+# /////////////////////////////////////////////////////////////////////////
 def sudo():
  if os.getuid() != 0:
   print("please run in sudo")
