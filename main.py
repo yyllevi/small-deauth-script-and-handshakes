@@ -77,7 +77,7 @@ def handshake():
          print("         HANDSHAKES")
          print("--------------------------------")
          print(f"\033[33mCaptured Handshake For \033[0;35m{essid}")
-         
+         os.system("rm -rf handshake.txt")
          os.system(f"rm -rf '{essid}'-01.kismet.csv")
          os.system(f"rm -rf '{essid}'-01.log.csv")
          os.system(f"rm -rf '{essid}'-01.kismet.netxml")
